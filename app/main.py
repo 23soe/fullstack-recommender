@@ -21,4 +21,4 @@ async def user_based(params: Optional[List[str]] = Query(None)):
 
 @app.get("/item-based/{item_id}")
 async def item_based(item_id: str):
-    return {"message": f"item based: {item_id}"}
+    return {"message" : f"item based: {item_id}"}
